@@ -1,6 +1,12 @@
-h1{
+h1 {
   font-family: Verdana;
   font-size: 14px;
-  font-weight: bold;
+  font weight: bold;
+}
+
+.logo {
   color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  flex-grow: 1
 }
