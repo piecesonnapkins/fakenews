@@ -1,9 +1,9 @@
 header {
+  display: flex;
+  align-items: center;
   z-index: 1;
   width: 100%;
   height: 80px;
-  display: flex;
-  align-items: center;
   position: fixed;
   background-color: white;
   font-family: Verdana;
@@ -13,11 +13,11 @@ header {
 }
 
 .logo {
-  color: MediumAquamarine;
   display: flex;
   align-items: center;
-  flex-grow: 1;
   padding-left: 30px;
+  flex-grow: 1;
+  color: MediumAquamarine;
 }
 
 nav {
@@ -27,4 +27,19 @@ nav {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+.large {
+  width: 630px;
+  border: 2px solid red;
+}
+
+.medium {
+  width: 300px;
+  border: 2px solid red;
+}
+
+.small {
+  width: 240px;
+  border: 2px solid red;
 }
