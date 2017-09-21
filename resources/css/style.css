@@ -58,6 +58,37 @@ h2 {
   border: 2px solid red;
 }
 
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url(https://github.com/piecesonnapkins/fakenews/blob/master/resources/images/img-story-main.png?raw=true);
+}
+
+.fall-caption  {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url(https://github.com/piecesonnapkins/fakenews/blob/master/resources/images/img-story-2.png?raw=true);
+}
+
+.caption-camera {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url(https://github.com/piecesonnapkins/fakenews/blob/master/resources/images/img-story-3.png?raw=true);
+}
+
+.caption-cats {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url(https://github.com/piecesonnapkins/fakenews/blob/master/resources/images/img-story-1.png?raw=true);
+}
 .lead-story {
   border: 2px solid yellow;
 }
@@ -68,6 +99,9 @@ h2 {
 
 .story {
   border: 3px solid grey;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .caption {
