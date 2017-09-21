@@ -1,7 +1,7 @@
 header {
   z-index: 1;
   width: 100%;
-  border-bottom: 1px solid black;
+  height: 80px;
   display: flex;
   align-items: center;
   position: fixed;
@@ -9,6 +9,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -16,30 +17,14 @@ header {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  padding-left: 30px;
 }
 
-header nav {
+nav {
+  padding-right: 40px;
+}
+
+nav span {
   display: inline-block;
-  align-items: flex-end;
-}
-
-main {
-  display: flex;
-  border: 1px solid black;
-  padding-top: 80px;
-}
-
-.column.large {
-  width: 630px;
-  border: 22px solid black;
-}
-
-.column.medium {
-  width: 300px;
-  border: 2px solid black;
-}
-
-.column.small {
-  width: 240px;
-  border: 2px solid black;
+  padding: 20px 10px;
 }
