@@ -32,6 +32,10 @@ nav span {
 h2 {
 
 }
+
+div {
+  display: block;
+}
 .content {
   display: flex;
   padding-top: 86px;
@@ -46,6 +50,8 @@ h2 {
 .column.large {
   width: 630px;
   border: 2px solid green;
+  display: flex;
+  flex-direction: column;
 }
 
 .column.medium {
@@ -63,14 +69,16 @@ h2 {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  height: 300px;
   background-image: url(https://github.com/piecesonnapkins/fakenews/blob/master/resources/images/img-story-main.png?raw=true);
 }
 
-.fall-caption  {
+.fall-caption {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  height: 300px;
   background-image: url(https://github.com/piecesonnapkins/fakenews/blob/master/resources/images/img-story-2.png?raw=true);
 }
 
@@ -79,6 +87,7 @@ h2 {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  height: 300px;
   background-image: url(https://github.com/piecesonnapkins/fakenews/blob/master/resources/images/img-story-3.png?raw=true);
 }
 
@@ -87,10 +96,12 @@ h2 {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  height: 300px;
   background-image: url(https://github.com/piecesonnapkins/fakenews/blob/master/resources/images/img-story-1.png?raw=true);
 }
 .lead-story {
   border: 2px solid yellow;
+  font-size: 40px;
 }
 
 .stories {
@@ -102,6 +113,8 @@ h2 {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 .caption {
