@@ -29,10 +29,12 @@ nav span {
   padding: 20px 10px;
 }
 
+h2 {
+
+}
 .content {
   display: flex;
   padding-top: 86px;
-  border: 2px solid aquamarine;
 }
 
 .column {
@@ -54,4 +56,20 @@ nav span {
 .column.small {
   width: 240px;
   border: 2px solid red;
+}
+
+.lead-story {
+  border: 2px solid yellow;
+}
+
+.stories {
+  border: 2px solid blue;
+}
+
+.story {
+  border: 3px solid grey;
+}
+
+.caption {
+  border: 2px solid black;
 }
