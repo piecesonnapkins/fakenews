@@ -29,17 +29,29 @@ nav span {
   padding: 20px 10px;
 }
 
-.large {
+.content {
+  display: flex;
+  padding-top: 86px;
+  border: 2px solid aquamarine;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid purple;
+}
+
+.column.large {
   width: 630px;
-  border: 2px solid red;
+  border: 2px solid green;
 }
 
-.medium {
+.column.medium {
   width: 300px;
-  border: 2px solid red;
+  border: 2px solid orange;
 }
 
-.small {
+.column.small {
   width: 240px;
   border: 2px solid red;
 }
