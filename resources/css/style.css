@@ -44,24 +44,20 @@ div {
 .column {
   display: flex;
   flex-direction: column;
-  border: 2px solid purple;
 }
 
 .column.large {
   width: 630px;
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
 }
 
 .column.medium {
   width: 300px;
-  border: 2px solid orange;
 }
 
 .column.small {
   width: 240px;
-  border: 2px solid red;
 }
 
 .image-content {
@@ -104,18 +100,15 @@ div {
   background-image: url(https://github.com/piecesonnapkins/fakenews/blob/master/resources/images/img-story-1.png?raw=true);
 }
 .lead-story {
-  border: 2px solid yellow;
   font-size: 40px;
 }
 
 .stories {
-  border: 2px solid blue;
   display: flex;
   justify-content: space-between;
 }
 
 .story {
-  border: 3px solid grey;
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -124,5 +117,4 @@ div {
 }
 
 .caption {
-  border: 2px solid black;
 }
