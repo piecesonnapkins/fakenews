@@ -147,6 +147,12 @@ p.news-bites {
 }
 
 footer {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
@@ -154,8 +160,21 @@ footer {
 }
 
 .mytimes {
+  display: inline-block;
+  padding-right: 25px;
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
+  border-right: 2px solid white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.copyright {
+  display: block;
+  justify-content: center;
 }
