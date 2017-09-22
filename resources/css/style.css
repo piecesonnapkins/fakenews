@@ -145,3 +145,17 @@ p.news-bites {
   color: Dimgrey;
   justify-content: center;
 }
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.mytimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
